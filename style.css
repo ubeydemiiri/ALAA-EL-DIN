@@ -416,8 +416,8 @@
   }
   
   .sec {
-    background: linear-gradient(rgba(30, 2, 102, 0.9), rgb(2, 2, 102, 0.9)),
-      url("./img/register/register__bg.png");
+    background: linear-gradient(rgba(30, 2, 102, 0.9), rgb(2, 2, 102, 0.9)) ,
+      url("./img/register/register__1.png");
     background-repeat: no-repeat;
     background-size: cover;
   
