@@ -198,3 +198,142 @@
 
         <!-------End navbar----------->
     </div>
+    <section>
+        <div class="container menu">
+            <div class="row">
+                <div class="col-lg-3  me-5  rounded">
+                    <div class="bg-light p-5 rounded">
+                        <div>
+                            <h6 class="text-secondary fw-bold px-3 py-2" style="background-color:#dddbdb ;">Welcome,
+                                Micle
+                                Obema</h6>
+                            <a href="admin-dashboard.html"
+                                class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-solid fa-house me-2"></i>Dashboard</a>
+                            <hr>
+                            <a href="admin-profile.html  "
+                                class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-solid fa-user  me-2"></i>My Profile</a>
+                            <hr>
+                            <div class="d-flex align-items-center"><a href="admin-message.html"
+                                    class=" text-decoration-none me-5 "><i
+                                        class="fa-regular fa-message me-2"></i>Message
+                                </a><span class="ms-5 px-2  rounded-pill span">12</span></div>
+                            <hr>
+                            <a href="admin-course.html" class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-solid fa-bookmark me-2"></i>Courses</a>
+                            <hr>
+                            <a href="admin-reviews.html" class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-regular fa-star me-2"></i>Reviews</a>
+                            <hr>
+                            <a href="admin-quiz-attempts.html"
+                                class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-regular fa-circle-question me-2"></i>Quiz Attempts</a>
+                            <hr>
+                        </div>
+                        <div>
+                            <h6 class="text-secondary fw-bold px-3 py-1" style="background-color:#dddbdb ;">user</h6>
+
+                            <a href="admin-settings.html" class="d-flex text-decoration-none align-items-center "><i
+                                    class="fa-solid fa-gear me-2"></i></i>Setting</a>
+                            <hr>
+                            <a href="#" class="d-flex text-decoration-none align-items-center "><i
+                                    class="fa-solid fa-volume-low me-2"></i>Logout</a>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8  rounded">
+                    <div class="bg-light p-5">
+                        <div class="ms-lg-5  border-bottom mx-2  ">
+                            <h4 class="text-black fw-bold pb-3">My Profile</h4>
+                        </div>
+                        <div class="col-md-12 mt-4 ">
+                            <div class=" tab  ">
+                                <div class="flex-row  bg-light navbar-nav flex-wrap ">
+                                    <div class="nav-item   hover-line-2  p-3"> <button class="btn tablinks active  border-0 me-5  "onclick="openTab(event, 'PROFILE')">PROFILE</button></div>
+                                    <div class="nav-item   hover-line-2 p-3"> <button
+                                            class="btn tablinks  border-0 me-5 "
+                                            onclick="openTab(event, 'PASSWORD')">PASSWORD</button></div>
+                                    <div class="nav-item  hover-line-2 p-3"><button class="btn tablinks  border-0 me-5 "
+                                            onclick="openTab(event, 'SOCIAL ICON')">SOCIAL ICON</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row tabcontent" id="PROFILE">
+                            <div class="col-md-6 ms-4">
+                                <form action="" class="form">
+                                    <label for="" class="fw-bold text-dark mt-4">First Name</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="John">
+                                    <label for="" class="fw-bold text-dark mt-4">User Name</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="Ntaden Mic">
+                                    <label for="" class="fw-bold text-dark mt-4">Skill/Occupation</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="Full Stack Developer">
+                                  
+                                </form>
+                            </div>
+                            <div class="col-md-6 ms-4">
+                                <form action="" class="form">
+                                    <label for="" class="fw-bold text-dark mt-4">Last Name</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="Due">
+                                    <label for="" class="fw-bold text-dark mt-4">Phone Number</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="+1-202-555-0174">
+                                    <label for="" class="fw-bold text-dark mt-4">Display Name Publicly As</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="John">
+                                </form>
+                            </div>
+                            <div class="col-md-12 ms-4">
+                                <form action="" class="form">
+                                    <label for="" class="fw-bold text-dark mt-4">Bio</label>
+                                    <textarea name="" id="" class="form-control mt-3"
+                                        placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                                        rows="10"></textarea>
+                                </form>
+                                <div class="d-flex">
+                                    <button type="button" class="btn mt-3 px-3 py-2"><a href="./admin.settings.html"
+                                            class="text-decoration-none ">Update Info</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row tabcontent " id="PASSWORD">
+                            <div class="col-md-12 ms-4">
+                                <form action="" class="form">
+                                    <label for="" class="fw-bold text-dark mt-4">Current Password</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="Current Password">
+                                    <label for="" class="fw-bold text-dark mt-4">New Password</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="New Password">
+                                    <label for="" class="fw-bold text-dark mt-4">Re-Type New Password</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="Re-Type New Password">
+                                    <div class="d-flex">
+                                        <button type="button" class="btn mt-3 px-4 py-2"><a href="./admin.settings.html"
+                                                class="text-decoration-none ">Update  Password</a></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row tabcontent" id="SOCIAL-ICON">
+                            <div class="col-md-12 ms-4">
+                                <form action="" class="form">
+                                    <label for="" class="fw-bold text-dark mt-4"><i class="fa-brands fa-facebook-f"></i> Facebook</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="https://www.facebook.com/">
+                                    <label for="" class="fw-bold text-dark mt-4"><i class="fa-brands fa-twitter"></i> Twitter</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="https://www.twitter.com/">
+                                    <label for="" class="fw-bold text-dark mt-4"><i class="fa-brands fa-linkedin"></i> Linkedin</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="https://www.c.com/">
+                                    <label for="" class="fw-bold text-dark mt-4"><i class="fa-brands fa-squarespace"></i> Website</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="https://www.website.com/">
+                                    <label for="" class="fw-bold text-dark mt-4"><i class="fa-brands fa-github"></i> Github</label>
+                                    <input type="text" class="form-control mt-2 p-2" placeholder="https://www.github.com/">
+                                    <div class="d-flex">
+                                        <button type="button" class="btn mt-3 px-4 py-2"><a href="./admin.settings.html"
+                                                class="text-decoration-none ">Update  Password</a></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
