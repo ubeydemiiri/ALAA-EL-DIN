@@ -198,3 +198,226 @@
 
         <!-------End navbar----------->
     </div>
+    <section>
+        <div class="container menu">
+            <div class="row">
+                <div class="col-lg-3  me-5  rounded">
+                    <div class="bg-light p-5 rounded">
+                        <div>
+                            <h6 class="text-secondary fw-bold px-3 py-2" style="background-color:#dddbdb ;">Welcome,
+                                Micle
+                                Obema</h6>
+                            <a href="admin-dashboard.html"
+                                class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-solid fa-house me-2"></i>Dashboard</a>
+                            <hr>
+                            <a href="admin-profile.html  "
+                                class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-solid fa-user  me-2"></i>My Profile</a>
+                            <hr>
+                            <div class="d-flex align-items-center"><a href="admin-message.html"
+                                    class=" text-decoration-none me-5 "><i
+                                        class="fa-regular fa-message me-2"></i>Message
+                                </a><span class="ms-5 px-2  rounded-pill span">12</span></div>
+                            <hr>
+                            <a href="admin-course.html" class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-solid fa-bookmark me-2"></i>Courses</a>
+                            <hr>
+                            <a href="admin-reviews.html" class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-regular fa-star me-2"></i>Reviews</a>
+                            <hr>
+                            <a href="admin-quiz-attempts.html"
+                                class="d-flex text-decoration-none align-items-center mt-3"><i
+                                    class="fa-regular fa-circle-question me-2"></i>Quiz Attempts</a>
+                            <hr>
+                        </div>
+                        <div>
+                            <h6 class="text-secondary fw-bold px-3 py-1" style="background-color:#dddbdb ;">user</h6>
+
+                            <a href="admin-settings.html" class="d-flex text-decoration-none align-items-center "><i
+                                    class="fa-solid fa-gear me-2"></i></i>Setting</a>
+                            <hr>
+                            <a href="#" class="d-flex text-decoration-none align-items-center "><i
+                                    class="fa-solid fa-volume-low me-2"></i>Logout</a>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8  rounded ">
+                    <div class="bg-light p-5">
+                        <div class=" border-bottom mx-2  ">
+                            <h4 class="text-black fw-bold ">Reviews</h4>
+                        </div>
+                        <div class="col-md-12 mt-4 mb-4">
+                            <div class=" tab ">
+                                <div class="flex-row  bg-light navbar-nav flex-wrap ">
+                                    <div class="nav-item   hover-line-2  p-3"> <button
+                                            class="btn tablinks active  border-0 me-5  "
+                                            onclick="openTab(event, 'RECEIVED')">RECEIVED</button></div>
+                                    <div class="nav-item   hover-line-2 p-3"> <button
+                                            class="btn tablinks  border-0 me-5 "
+                                            onclick="openTab(event, 'GIVEN')">GIVEN</button></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 px-4 tabcontent" id="RECEIVED">
+                            <div class="col-md-12 overflow-auto">
+                                <table class="table  table-borderless  kal ms-lg-2">
+                                    <thead class="ta">
+                                        <tr>
+                                           <th>Student</th>
+                                           <th>Date</th>
+                                           <th>	Feedback</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td><p class="mt-5">John Lock</p></td>
+                                        <td ><p class="mt-5 text-secondary ">January 30,2030</p></td>
+                                        <td><p class="fw-bold ">Course: Speaking Korean for Beginners <br>
+                                            <div class="d-flex">
+                                              <div class="">
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                              </div>
+                                                <p class="fw-bold">(9 Reviews)</p>
+                                            </div>
+                                       <p class="text-secondary">Good</p></p>
+                                    </td>
+                                      </tr>
+                                      <tr class="ta">
+                                        <td><p class="mt-5">John Robi</p></td>
+                                        <td ><p class="mt-5 text-secondary ">June 30, 2025</p></td>
+                                        <td><p class="fw-bold ">Course: PHP for Beginners <br>
+                                            <div class="d-flex">
+                                              <div class="">
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                              </div>
+                                                <p class="fw-bold">(9 Reviews)</p>
+                                            </div>
+                                       <p class="text-secondary">Awesome</p></p>
+                                    </td>
+                                      </tr>
+                                      <tr>
+                                        <td><p class="mt-5">Mice Jerry</p></td>
+                                        <td ><p class="mt-5 text-secondary ">April 30, 2024</p></td>
+                                        <td><p class="fw-bold ">Course: WordPress for Beginners <br>
+                                            <div class="d-flex">
+                                              <div class="">
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                              </div>
+                                                <p class="fw-bold">(9 Reviews)</p>
+                                            </div>
+                                       <p class="text-secondary">Nice Course</p></p>
+                                    </td>
+                                      </tr>
+                                      <tr class="ta">
+                                        <td><p class="mt-5">Mice Jerry</p></td>
+                                        <td ><p class="mt-5 text-secondary ">October 30, 2213</p></td>
+                                        <td><p class="fw-bold ">Course: Speaking Korean for Beginners<br>
+                                            <div class="d-flex">
+                                              <div class="">
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                              </div>
+                                                <p class="fw-bold">(9 Reviews)</p>
+                                            </div>
+                                       <p class="text-secondary">-</p></p>
+                                    </td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 px-4 tabcontent" id="GIVEN">
+                            <div class="col-md-12 overflow-auto">
+                                <table class="table  table-borderless  kal ms-lg-2">
+                                    <thead class="ta">
+                                        <tr>
+                                           <th>Course Title</th>
+                                           <th></th>
+                                           <th>Review</th>
+                                  
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td><p class="mt-5">Course: How to Write Your First Novel</p></td>
+                                    <td></td>
+                                        <td><p class="fw-bold ">
+                                            <div class="d-flex">
+                                              <div class="">
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                              </div>
+                                                <p class="fw-bold">(9 Reviews)</p>
+                                            </div>
+                                       <p class="text-secondary">Good</p></p>
+                                    </td>
+                                      </tr>
+                                      <tr class="ta">
+                                        <td><p class="mt-5">Course: How to Web Design</p></td>
+                                        <td ></td>
+                                        <td><p class="fw-bold ">
+                                            <div class="d-flex">
+                                              <div class="">
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                              </div>
+                                                <p class="fw-bold">(9 Reviews)</p>
+                                            </div>
+                                       <p class="text-secondary">Awesome</p></p>
+                                    </td>
+                                      </tr>
+                                      <tr>
+                                        <td><p class="mt-5">Course: English</p></td>
+                                        <td ></td>
+                                        <td><p class="fw-bold "><br>
+                                            <div class="d-flex">
+                                              <div class="">
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                                <i class="fa-regular fa-star sts"></i>
+                                              </div>
+                                                <p class="fw-bold">(9 Reviews)</p>
+                                            </div>
+                                       <p class="text-secondary">Nice Course</p></p>
+                                    </td>
+                                      </tr>
+                                     
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
