@@ -324,9 +324,7 @@
     color: #ff275a;
   }
   
-  .card-css {
-    overflow: hidden;
-  }
+ 
   .mi {
     color: #000;
   }
@@ -1158,9 +1156,7 @@
     transform: scale(1.2);
   }
   
-  .card {
-    overflow: hidden;
-  }
+ 
   
   .zoom {
     position: relative;
@@ -1385,9 +1381,7 @@
   .card img:hover {
     transform: scale(1.2);
   }
-  .card {
-    overflow: hidden;
-  }
+ 
   .zoom {
     position: relative;
     overflow: hidden;
@@ -1639,9 +1633,7 @@
   .card img:hover {
     transform: scale(1.2);
   }
-  .card {
-    overflow: hidden;
-  }
+ 
   .zoom {
     position: relative;
     overflow: hidden;

@@ -110,9 +110,7 @@
     transform: scale(1.2);
   }
   
-  .card {
-    overflow: hidden;
-  }
+ 
   
   .zoom {
     position: relative;
